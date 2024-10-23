@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update-types": "npx supabase gen types typescript --project-id  \"ssxeefrpcczinhqdpbug\" --schema vyapar,auth,vault > src/entities/supabase/interfaces/supabase.database.ts",
+    "update-types": "npx supabase gen types typescript --project-id  \"ssxeefrpcczinhqdpbug\" --schema vyapar,auth,vault > src/interfaces/supabase.database.ts"
   },
   "author": "Vivek Tripathi",
   "license": "MIT"
